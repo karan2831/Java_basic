@@ -45,6 +45,6 @@ public class BasicCalculator {
         } while (choice != 0);
 
         System.out.println("Calculator closed.");
-        sc.close(); // Close scanner
+        sc.close(); 
     }
 }
