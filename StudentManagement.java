@@ -16,7 +16,7 @@ class Student {
 public class StudentManagement {
     public static void main(String[] args) {
         ArrayList<Student> students = new ArrayList<Student>();
-        Scanner sc = new Scanner(System.in); // Scanner created
+        Scanner sc = new Scanner(System.in); 
         int choice = 0;
 
         do {
@@ -31,7 +31,7 @@ public class StudentManagement {
             if (choice == 1) {
                 System.out.print("Enter ID: ");
                 int id = sc.nextInt();
-                sc.nextLine(); // consume newline
+                sc.nextLine(); 
                 System.out.print("Enter Name: ");
                 String name = sc.nextLine();
                 System.out.print("Enter Age: ");
@@ -81,7 +81,7 @@ public class StudentManagement {
 
         } while (choice != 4);
 
-        // ? Close the scanner at the end!
+      
         sc.close();
     }
 }
